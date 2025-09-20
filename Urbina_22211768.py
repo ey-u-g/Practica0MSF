@@ -101,7 +101,7 @@ plt.ylabel('Vi(t)[V]',fontsize = 11)
 plt.legend(bbox_to_anchor = (0.5,-0.2),loc = 'center',ncol =3, fontsize = 9, frameon = True)
 
 plt.show()
-fg1.savefig('step_python.pdf',bbox_inches = 'tight')
+fg1.savefig('step_python1.pdf',bbox_inches = 'tight')
 
 fg1 = plt.figure()
 plt.plot(t,u2,'-',color = clr1,label = 'Pao(t)')
@@ -114,7 +114,7 @@ plt.ylabel('Vi(t)[V]',fontsize = 11)
 plt.legend(bbox_to_anchor = (0.5,-0.2),loc = 'center',ncol =3, fontsize = 9, frameon = True)
 
 plt.show()
-fg1.savefig('step_python.pdf',bbox_inches = 'tight')
+fg1.savefig('pulse_python2.pdf',bbox_inches = 'tight')
 
 fg1 = plt.figure()
 plt.plot(t,u3,'-',color = clr1,label = 'Pao(t)')
@@ -127,7 +127,7 @@ plt.ylabel('Vi(t)[V]',fontsize = 11)
 plt.legend(bbox_to_anchor = (0.5,-0.2),loc = 'center',ncol =3, fontsize = 9, frameon = True)
 
 plt.show()
-fg1.savefig('step_python.pdf',bbox_inches = 'tight')
+fg1.savefig('ramp_python3.pdf',bbox_inches = 'tight')
 
 fg1 = plt.figure()
 plt.plot(t,u4,'-',color = clr1,label = 'Pao(t)')
@@ -140,4 +140,4 @@ plt.ylabel('Vi(t)[V]',fontsize = 11)
 plt.legend(bbox_to_anchor = (0.5,-0.2),loc = 'center',ncol =3, fontsize = 9, frameon = True)
 
 plt.show()
-fg1.savefig('step_python.pdf',bbox_inches = 'tight')
+fg1.savefig('sin_python4.pdf',bbox_inches = 'tight')
